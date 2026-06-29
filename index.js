@@ -14,7 +14,7 @@
 //   return result;
 // }
 // console.log(MissingArray([1, 8]));
-// console.log(MissingArray([1]));
+// console.log(MissingArray([]));
 
 // --------------------------------------------------------------------------------------------------------------
 
@@ -254,3 +254,48 @@
 // console.log(map);
 
 // --------------------------------------------------------------------------------------------------------------
+
+// Remove Duplicates Sorted Array
+
+// let arr = [1, 2, 4];
+// let set = new Set([...arr]);
+// console.log([...set]);
+
+// --------------------------------------------------------------------------------------------------------------
+
+// Find Kth Rotation
+
+// let arr = [6, 1, 2, 3, 4, 5];
+// let min = arr[0];
+// let index = 0;
+// for (let i = 1; i < arr.length; i++) {
+//   if (arr[i] < min) {
+//     min = arr[i];
+//     index = i;
+//   }
+// }
+
+// console.log(index);
+
+// --------------------------------------------------------------------------------------------------------------
+
+// First Repeating Element
+
+// let arr = [1, 5, 3, 4, 3, 5, 6];
+// function RepeatingFirst(arr) {
+//   for (let i = 0; i < arr.length; i++) {
+//     for (let j = i + 1; j < arr.length; j++) {
+//       if (arr[i] == arr[j]) {
+//         return i+1;
+//         break;
+//       }
+//     }
+//   }
+//   return -1;
+// }
+// console.log(RepeatingFirst(arr));
+
+// --------------------------------------------------------------------------------------------------------------
+
+ 
+ 
